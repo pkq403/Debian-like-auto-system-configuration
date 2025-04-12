@@ -3,7 +3,11 @@
 # Loads colors constants
 source ./common/colors.sh
 
+# Executes zsh configuration script
+source ./zsh-config/zsh-config.sh
+
 # Executes tmux configuration script
 source ./tmux-config/tmux-config.sh
 
-# Executes vim configuration downloads pkq403's kickstart nvim configuration
+# Executes vim configuration script
+source ./nvim-config/nvim-config.sh
