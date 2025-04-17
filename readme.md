@@ -1,5 +1,8 @@
-# TODOS
--> Write ZSH autosetup
-    -> Write power9k autosetup
+# Installation
 
--> Write NVIM autosetup (git clone pkq403 kickstart repo)
+```
+chmod +x run.sh
+./run.sh
+```
+##_Preventive_:
+log out and log in after running the run.sh script
