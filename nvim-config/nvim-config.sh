@@ -14,8 +14,9 @@ sudo apt install ripgrep -y
 sudo apt install xclip -y
 
 echoColor $CYAN "	Downloading kickstart.nvim in ./config/nvim"
-git clone https://github.com/pkq403/kickstart.nvim-pkq403-custom-
-"${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+# Cleaning up $HOME/.config/nvim directory
+rm -rf $HOME/.config/nvim/..?* $HOME/.config/nvim/.[!.]* $HOME/.config/nvim/*
+git clone https://github.com/pkq403/kickstart.nvim-pkq403-custom- "${XDG_CONFIG_HOME:-$HOME}"/.config/nvim
 
 echoColor $RED "	Do: nvim for seeing your new NVIM set up"
 # Now you should start nvim to start the plugin installation, do
