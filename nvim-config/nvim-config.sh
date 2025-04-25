@@ -7,11 +7,11 @@ echoColor $RED "[!] Nvim installation: "
 # Installing pre-requisites:
 echoColor $CYAN "	Installing Pre-requisites"
 # Installing some essential dependecies like gcc, make, git...
-apt install build-essential -y
+sudo apt install build-essential -y
 # Improved grep (used by some nvim plugins, that will be installed later)
-apt install ripgrep -y
+sudo apt install ripgrep -y
 # Clipboard management tool
-apt install xclip -y
+sudo apt install xclip -y
 
 echoColor $CYAN "	Downloading kickstart.nvim in ./config/nvim"
 git clone https://github.com/pkq403/kickstart.nvim-pkq403-custom-

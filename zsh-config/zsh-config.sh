@@ -2,7 +2,7 @@
 
 echoColor $PURPLE "[!] ZSH basic installation"
 # installing zsh
-apt install zsh -y
+sudo apt install zsh -y
 echoColor $CYAN "	setting zsh as default shell..."
 # Setting zsh as the deafult shell
 chsh -s $(which zsh)
