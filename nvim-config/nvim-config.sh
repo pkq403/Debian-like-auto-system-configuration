@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# [!] Attention: the correct NVIM version should have been installed before running this
+# At the moment of writing this script NVIM 0.10.x is the one that is working with kickstart.nvim
 # This script follows kickstart-nvim installation guide
 echoColor $RED "[!] Nvim installation: "
 
